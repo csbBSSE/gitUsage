@@ -1,12 +1,12 @@
 # A brief tutorial to use Github.
 
 Github is the most commonly used platform for code development and sharing. It also has support in terms of plugins and community for developing software packages, libraries for languages like Python, R, Julia etc., and developing websites. Most of us would have installed packages from Github at some point or the other. 
-Originally, git is a version control tool that can keep track of changes to files irrespective of their type over time.And the best part, and perhaps the most important part for us, is the fact that [there aren't any storage limits!](https://docs.github.com/en/github/managing-large-files/what-is-my-disk-quota
+Originally, git is a version control tool that can keep track of changes to files irrespective of their type over time.And the best part, and perhaps the most important part for us, is the fact that [there aren't any storage limits](https://docs.github.com/en/github/managing-large-files/what-is-my-disk-quota
 ), irrespective of whether your account is free or paid.
 
 ## Basic usage:
 
-There are many good tutorials on what git is and how to use it. [Github's own documentation!](https://docs.github.com/en/github/getting-started-with-github) is perhaps the most comprehensive resource. Other useful resources include [Tutorials point!](https://www.tutorialspoint.com/git/index.htm), [Github Lab!](https://lab.github.com/) and the [git-scm documentation!](https://www.atlassian.com/git/tutorials/what-is-version-control). An easy to read beginner-level tutorial explaining different concepts and usage details of git is [here!](https://www.atlassian.com/git/tutorials/saving-changes/git-commit). To begin with, the following steps can be used to create and maintain a github repository.
+There are many good tutorials on what git is and how to use it. [Github's own documentation](https://docs.github.com/en/github/getting-started-with-github) is perhaps the most comprehensive resource. Other useful resources include [Tutorials point](https://www.tutorialspoint.com/git/index.htm), [Github Lab](https://lab.github.com/) and the [git-scm documentation](https://www.atlassian.com/git/tutorials/what-is-version-control). An easy to read beginner-level tutorial explaining different concepts and usage details of git is [here](https://www.atlassian.com/git/tutorials/saving-changes/git-commit). To begin with, the following steps can be used to create and maintain a github repository.
 
 1. Create an account on github.com and create a repository. There are a few customizations you can so here including whether the repository should be private or public. For the purpose of example, let the username on github be "dummy1" and repository name be "repo1".
 2. On your local machine, install git. For linux based machines, you can install it in terminal using commands like "apt-get install git". 
@@ -25,7 +25,7 @@ This will create a copy of the repository in your current directory. If your rep
 ```
 $ git add -A
 ```
-which makes git track all the files in your folder. You can also specify files to track based on your requirement. See this [documentation!](https://git-scm.com/docs/git-add) for more detail. 
+which makes git track all the files in your folder. You can also specify files to track based on your requirement. See this [documentation](https://git-scm.com/docs/git-add) for more detail. 
 6. Commit changes. This lets git know that you are ready to "stage" the changes you have made to the local repository.
 ```
 $ git commit -m "Brief description of the changes"
@@ -38,7 +38,7 @@ $ git push origin master
 Based on the commit permissions for the repository on Github, you may be prompted to provide the github username and password. 
 
 After the initial setup, steps 5-7 can be used to keep staging the changes to your repository. 
-There can also be multiple local repositories set up on multiple machines connected to the same repository on Github. In such situations, one must pull the current state of the Github repository before commiting changes from the local repository. This can be done using:
+There can also be multiple local repositories set up on multiple machines connected to the same repository on Github. In such situations, one **must** pull the current state of the Github repository before commiting changes from the local repository. This can be done using:
 ```
 $ git pull origin master
 ```
